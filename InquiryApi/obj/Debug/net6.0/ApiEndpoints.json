@@ -1,0 +1,118 @@
+[
+  {
+    "ContainingType": "InquiryApi.Controllers.ContainerController",
+    "Method": "GetAmountByVirNoOrIndexNo",
+    "RelativePath": "api/Container/amount-by-virno-indexno",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "virNo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "indexNo",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InquiryApi.Controllers.ContainerController",
+    "Method": "GetAmountByVirNoOrIndexNo",
+    "RelativePath": "api/Container/amount-by-virno-indexNo-FromDate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "virNo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "indexNo",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "fromDate",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InquiryApi.Controllers.ContainerController",
+    "Method": "InquiryByBLNo",
+    "RelativePath": "api/Container/by-blno/{blno}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "blno",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InquiryApi.Controllers.ContainerController",
+    "Method": "InquiryByContainerNo",
+    "RelativePath": "api/Container/by-container-no/{containerNo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "containerNo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InquiryApi.Controllers.ContainerController",
+    "Method": "GetContainerDetails",
+    "RelativePath": "api/Container/details",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "containerNo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "blNo",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InquiryApi.Controllers.ContainerController",
+    "Method": "GetContainerDetails",
+    "RelativePath": "api/Container/details/{containerNo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "containerNo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
